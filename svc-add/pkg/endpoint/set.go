@@ -11,7 +11,7 @@ import (
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/ratelimit"
 
-	"github.com/lukyth/try-go-kit/svc-add/pkg/service"
+	"github.com/pNagi/try-go-kit/svc-add/pkg/service"
 )
 
 // Set collects all of the endpoints that compose an add service. It's meant to

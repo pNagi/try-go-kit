@@ -9,7 +9,7 @@ import (
 
 	httptransport "github.com/go-kit/kit/transport/http"
 
-	"github.com/lukyth/try-go-kit/svc-string/pkg/endpoint"
+	"github.com/pNagi/try-go-kit/svc-string/pkg/endpoint"
 )
 
 // NewHTTPHandler returns an HTTP handler that makes a set of endpoints

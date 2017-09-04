@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-kit/kit/log"
 
-	"github.com/lukyth/try-go-kit/svc-string/pkg/endpoint"
-	"github.com/lukyth/try-go-kit/svc-string/pkg/service"
-	"github.com/lukyth/try-go-kit/svc-string/pkg/transport"
+	"github.com/pNagi/try-go-kit/svc-string/pkg/endpoint"
+	"github.com/pNagi/try-go-kit/svc-string/pkg/service"
+	"github.com/pNagi/try-go-kit/svc-string/pkg/transport"
 )
 
 func main() {

@@ -5,9 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/gorilla/mux"
-
 	"github.com/go-kit/kit/log"
+	"github.com/gorilla/mux"
 )
 
 func main() {
@@ -21,12 +20,16 @@ func main() {
 }
 
 func serviceHandler(w http.ResponseWriter, r *http.Request) {
-	m := map[string]string{
-		"add":    "8081",
-		"string": "8080",
+	hosts := map[string]string{
+		"add":    os.Getenv("ADD_API_HOST"),
+		"string": os.Getenv("STR_API_HOST"),
+	}
+	ports := map[string]string{
+		"add":    os.Getenv("ADD_API_PORT"),
+		"string": os.Getenv("STR_API_PORT"),
 	}
 	vars := mux.Vars(r)
-	url := "http://localhost:" + m[vars["serviceName"]] + "/" + vars["func"]
+	url := "http://" + hosts[vars["serviceName"]] + ":" + ports[vars["serviceName"]] + "/" + vars["func"]
 
 	req, err := http.NewRequest("POST", url, r.Body)
 

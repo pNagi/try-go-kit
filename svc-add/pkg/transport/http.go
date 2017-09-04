@@ -8,8 +8,8 @@ import (
 	"github.com/go-kit/kit/log"
 	httptransport "github.com/go-kit/kit/transport/http"
 
-	addendpoint "github.com/lukyth/try-go-kit/svc-add/pkg/endpoint"
-	"github.com/lukyth/try-go-kit/svc-add/pkg/service"
+	addendpoint "github.com/pNagi/try-go-kit/svc-add/pkg/endpoint"
+	"github.com/pNagi/try-go-kit/svc-add/pkg/service"
 )
 
 // NewHTTPHandler returns an HTTP handler that makes a set of endpoints

@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/go-kit/kit/endpoint"
-	"github.com/lukyth/try-go-kit/svc-string/pkg/service"
+	"github.com/pNagi/try-go-kit/svc-string/pkg/service"
 )
 
 // MakeCountEndpoint constructs a Count endpoint wrapping the service.

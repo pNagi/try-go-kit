@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/go-kit/kit/endpoint"
-	"github.com/lukyth/try-go-kit/svc-string/pkg/service"
+	"github.com/pNagi/try-go-kit/svc-string/pkg/service"
 )
 
 // MakeUppercaseEndpoint constructs an Uppercase endpoint wrapping the service.

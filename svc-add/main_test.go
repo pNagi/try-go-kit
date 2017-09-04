@@ -10,9 +10,9 @@ import (
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/metrics/discard"
 
-	"github.com/lukyth/try-go-kit/svc-add/pkg/endpoint"
-	"github.com/lukyth/try-go-kit/svc-add/pkg/service"
-	"github.com/lukyth/try-go-kit/svc-add/pkg/transport"
+	"github.com/pNagi/try-go-kit/svc-add/pkg/endpoint"
+	"github.com/pNagi/try-go-kit/svc-add/pkg/service"
+	"github.com/pNagi/try-go-kit/svc-add/pkg/transport"
 )
 
 func TestHTTP(t *testing.T) {

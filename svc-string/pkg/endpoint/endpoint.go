@@ -2,7 +2,7 @@ package endpoint
 
 import (
 	"github.com/go-kit/kit/endpoint"
-	"github.com/lukyth/try-go-kit/svc-string/pkg/service"
+	"github.com/pNagi/try-go-kit/svc-string/pkg/service"
 )
 
 // Set collects all of the endpoints that compose an add service. It's meant to
